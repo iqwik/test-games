@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+html, body, #root {
+    height: 100%;
+}
+
+.app {
+    &.is-loading {
+        position: relative;
+        opacity: 0.5;
+
+    }
+}
+
+.info {
+    display: none;
+    &.info-message {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.wrapper {
+    padding: 2rem;
+    height: 100%;
+    max-width: 90%;
+}

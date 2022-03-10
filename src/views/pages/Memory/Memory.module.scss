@@ -1,0 +1,54 @@
+.Memory {
+	height: 100%;
+
+	:global(ul) {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+
+		& > li {
+			margin: 0;
+			padding: 10px 0;
+
+			label {
+				width: 100%;
+				display: flex;
+				align-items: center;
+				
+				& > span {
+					display: inline-block;
+					width: 15%;
+				}
+
+				input[type="text"], textarea {
+					width: 70%;
+				}
+			}
+		}
+	}
+
+	.container {
+		border: 1px solid #DEDEDE;
+		padding: 12px;
+		box-shadow: 0 0 4px 4px #DEDEDE; 
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(3, 1fr);
+		justify-items: center;
+		align-items: stretch;
+		gap: 1rem;
+		width: 1200px;
+		height: 600px;
+		perspective: 100%;
+	}
+
+	.Buttons {
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
+
+		li {
+			margin-right: 10px;
+		}
+	}
+}
