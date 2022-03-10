@@ -24,7 +24,7 @@ module.exports = merge(common, {
             ]
         }),
         new HtmlWebpackPlugin({
-            title: 'Form Builder',
+            title: 'Test games',
             filename: 'index.html',
             publicPath: path.resolve(__dirname, `../${bundleFolder}`),
             template: path.resolve(__dirname, './index.html'),
