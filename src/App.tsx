@@ -9,7 +9,7 @@ const App: React.FunctionComponent = () => (
     <AppContextProvider>
         <div className="wrapper">
             <p>
-                &#8592;&nbsp; <a href="#">back to repo</a>
+                &#8592;&nbsp; <a href="https://iqwik.github.io/test-games/example/">back to repo</a>
             </p>
             <Tabs />
         </div>
