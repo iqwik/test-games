@@ -1,1 +1,1 @@
-export { usePuzzleTilesPositionStatus } from './usePuzzleTilesPositionStatus'
+export * from './useMemoryCards'
